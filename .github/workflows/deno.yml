@@ -4,7 +4,7 @@ on:
     inputs:
        test:
        required: true
-       type: string
+       type: bool
   
 env:
   favorite_color: orange
