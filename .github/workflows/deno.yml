@@ -1,8 +1,9 @@
-name: my_color_workflow
+name: Manual trigger
+
 on:
   workflow_dispatch:
     inputs:
-      runnint: 
-         required: true
-         type: string
+      name:
+        description: "Who to greet"
+        default: "World"
 
