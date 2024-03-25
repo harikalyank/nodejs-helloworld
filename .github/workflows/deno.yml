@@ -3,8 +3,8 @@ on:
   workflow_dispatch:
     inputs:
       test: 
-      required: true
-      type: bool
+         required: true
+         type: string
 env:
   favorite_color: orange
 jobs:
