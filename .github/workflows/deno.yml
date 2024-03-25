@@ -5,5 +5,5 @@ on:
     inputs:
       name:
         description: "Who to greet"
-        default: "World"
+        required: true
 
