@@ -1,6 +1,11 @@
 name: my_color_workflow
+
 on:
   workflow_dispatch:
+    inputs:
+       test:
+       required: true
+  
 env:
   favorite_color: orange
 jobs:
